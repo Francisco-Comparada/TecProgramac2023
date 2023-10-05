@@ -1,0 +1,14 @@
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\bin\Debug\net7.0\AgentSalaries.exe
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\bin\Debug\net7.0\AgentSalaries.deps.json
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\bin\Debug\net7.0\AgentSalaries.runtimeconfig.json
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\bin\Debug\net7.0\AgentSalaries.dll
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\bin\Debug\net7.0\AgentSalaries.pdb
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\AgentSalaries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\AgentSalaries.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\AgentSalaries.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\AgentSalaries.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\AgentSalaries.dll
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\refint\AgentSalaries.dll
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\AgentSalaries.pdb
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\AgentSalaries.genruntimeconfig.cache
+C:\Users\franc\OneDrive\Escritorio\TecProgamac2023\AgentSalaries\AgentSalaries\obj\Debug\net7.0\ref\AgentSalaries.dll
