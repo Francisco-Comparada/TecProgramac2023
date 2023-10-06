@@ -1,7 +1,7 @@
 ﻿using AgentSalaries.Administrative;
 
 namespace AgentSalaries.Agent;
-
+// clase agente de parulla que hereda de agente 
 public class PatrolAgent : Agent
 {
     private string specialty { get; set; }
@@ -9,8 +9,8 @@ public class PatrolAgent : Agent
     private string variableAmount { get; set; }
 
     public PatrolAgent(int registrationNumber, string name, string position, DateTime dateOfAdmission,
-        BaseSalary baseSalary, string specialty, string classification, string variableAmount) : base(
-        registrationNumber, name, position, dateOfAdmission, baseSalary)
+         string specialty, string classification, string variableAmount) : base(
+        registrationNumber, name, position, dateOfAdmission)
     {
         this.specialty = specialty;
         this.classification = classification;
@@ -19,6 +19,7 @@ public class PatrolAgent : Agent
 
     public override double CalculateSalary()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("patrol" + BaseSalary.baseSalaryPatrol);
+        return 0;
     }
 }

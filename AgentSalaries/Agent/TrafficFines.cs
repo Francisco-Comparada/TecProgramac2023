@@ -1,5 +1,6 @@
 ﻿namespace AgentSalaries.Agent;
 
+// clase que representa las multas
 public class TrafficFines
 {
     public double fineAmount { get; set; }

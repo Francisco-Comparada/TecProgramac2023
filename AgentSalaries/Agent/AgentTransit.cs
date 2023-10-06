@@ -2,19 +2,21 @@
 
 namespace AgentSalaries.Agent;
 
+// clase agente de transito que hereda de agente 
 public class AgentTransit : Agent
 {
     public List<TrafficFines> finesIssued { get; set; }
 
     public AgentTransit(int registrationNumber, string name, string position, DateTime dateOfAdmission,
-        BaseSalary baseSalary, List<TrafficFines> finesIssued) : base(registrationNumber,
-        name, position, dateOfAdmission, baseSalary)
+        List<TrafficFines> finesIssued) : base(registrationNumber,
+        name, position, dateOfAdmission)
     {
         this.finesIssued = finesIssued;
     }
 
     public override double CalculateSalary()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("transit");
+        return 0;
     }
 }
