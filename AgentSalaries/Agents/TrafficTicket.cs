@@ -17,8 +17,22 @@
         }
 
         // Propiedades
-        public double Amount { get => amount; set => amount = value; }
-        public string InfractionType { get => infractionType; set => infractionType = value; }
-        public TrafficAgent Agent { get => agent; set => agent = value; }
+        public double Amount
+        {
+            get => amount;
+            set => amount = value;
+        }
+
+        public string InfractionType
+        {
+            get => infractionType;
+            set => infractionType = value;
+        }
+
+        public TrafficAgent Agent
+        {
+            get => agent;
+            set => agent = value;
+        }
     }
 }

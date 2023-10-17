@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matias\\Desktop\\TecProgramac2023\\AgentSalaries\\AgentSalaries.csproj": {}
+    "/Users/franciscocomparada/Desktop/TecProgramac2023/AgentSalaries/AgentSalaries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matias\\Desktop\\TecProgramac2023\\AgentSalaries\\AgentSalaries.csproj": {
+    "/Users/franciscocomparada/Desktop/TecProgramac2023/AgentSalaries/AgentSalaries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matias\\Desktop\\TecProgramac2023\\AgentSalaries\\AgentSalaries.csproj",
+        "projectUniqueName": "/Users/franciscocomparada/Desktop/TecProgramac2023/AgentSalaries/AgentSalaries.csproj",
         "projectName": "AgentSalaries",
-        "projectPath": "C:\\Users\\Matias\\Desktop\\TecProgramac2023\\AgentSalaries\\AgentSalaries.csproj",
-        "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matias\\Desktop\\TecProgramac2023\\AgentSalaries\\obj\\",
+        "projectPath": "/Users/franciscocomparada/Desktop/TecProgramac2023/AgentSalaries/AgentSalaries.csproj",
+        "packagesPath": "/Users/franciscocomparada/.nuget/packages/",
+        "outputPath": "/Users/franciscocomparada/Desktop/TecProgramac2023/AgentSalaries/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/franciscocomparada/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/franciscocomparada/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,22 +9,30 @@
 
         // Constructor
         public TrafficAgent(int registrationNumber,
-                            string name,
-                            string position,
-                            DateTime dateOfAdmission,
-                            double baseAmount,
-                            List<TrafficTicket> issuedTickets) : base(registrationNumber,
-                                                                       name,
-                                                                       position,
-                                                                       dateOfAdmission)
+            string name,
+            string position,
+            DateTime dateOfAdmission,
+            double baseAmount,
+            List<TrafficTicket> issuedTickets) : base(registrationNumber,
+            name,
+            position,
+            dateOfAdmission)
         {
             this.baseAmount = baseAmount;
             this.issuedTickets = issuedTickets;
         }
 
         // Propiedades
-        public double BaseAmount { get => baseAmount; }
-        public List<TrafficTicket> IssuedTickets { get => issuedTickets; set => issuedTickets = value; }
+        public double BaseAmount
+        {
+            get => baseAmount;
+        }
+
+        public List<TrafficTicket> IssuedTickets
+        {
+            get => issuedTickets;
+            set => issuedTickets = value;
+        }
 
         // Metodo heredado pero con una implementacion particular
         public override double CalculateSalary()

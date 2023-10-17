@@ -10,25 +10,43 @@
         protected DateTime dateOfAdmission;
 
 
-
         /* Por mas que la clase sea abstracta, defino el constructor para inicializar
-         * el objeto todo en una linea y no tener que hacerlo con un set. */
+         * el objeto TodoO en una linea y no tener que hacerlo con un set. */
 
-        public Agent(int registrationNumber, string name, string position, DateTime dateOfAdmission
-           )
+        public Agent(int registrationNumber, string name, string position,
+            DateTime dateOfAdmission
+        )
         {
             this.registrationNumber = registrationNumber;
             this.name = name;
             this.position = position;
             this.dateOfAdmission = dateOfAdmission;
-
         }
 
         // Propiedades
-        public int RegistrationNumber { get => registrationNumber; set => registrationNumber = value; }
-        public string Name { get => name; set => name = value; }
-        public string Position { get => position; set => position = value; }
-        public DateTime DateOfAdmission { get => dateOfAdmission; set => dateOfAdmission = value; }
+        public int RegistrationNumber
+        {
+            get => registrationNumber;
+            set => registrationNumber = value;
+        }
+
+        public string Name
+        {
+            get => name;
+            set => name = value;
+        }
+
+        public string Position
+        {
+            get => position;
+            set => position = value;
+        }
+
+        public DateTime DateOfAdmission
+        {
+            get => dateOfAdmission;
+            set => dateOfAdmission = value;
+        }
 
         //Polimorfismo para que sus clases hijas tengan el mismo nombre del metodo pero distintos codigos 
         public abstract double CalculateSalary();
