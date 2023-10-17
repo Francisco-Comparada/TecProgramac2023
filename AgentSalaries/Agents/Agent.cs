@@ -13,7 +13,7 @@
         /* Por mas que la clase sea abstracta, defino el constructor para inicializar
          * el objeto TodoO en una linea y no tener que hacerlo con un set. */
 
-        public Agent(int registrationNumber, string name, string position,
+        protected Agent(int registrationNumber, string name, string position,
             DateTime dateOfAdmission
         )
         {
